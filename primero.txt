@@ -1,2 +1,185 @@
-Este es mi primer fichero con información.
-Probando nuevas cosas
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cómo usar GitHub</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            line-height: 1.6;
+
+            margin: 20px;
+
+            background-color: #f4f4f4;
+
+        }
+
+        h1 {
+
+            color: #333;
+
+        }
+
+        ul {
+
+            list-style-type: none;
+
+            padding: 0;
+
+        }
+
+        li {
+
+            background: #fff;
+
+            margin: 10px 0;
+
+            padding: 15px;
+
+            border-radius: 5px;
+
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <h1>Cómo usar GitHub</h1>
+
+    <ul>
+
+        <li>
+
+            <strong>1. Crear una cuenta en GitHub:</strong>
+
+            Visita <a href="https://github.com" target="_blank">github.com</a> y regístrate para obtener una cuenta gratuita.
+
+        </li>
+
+        <li>
+
+            <strong>2. Instalar Git:</strong>
+
+            Descarga e instala Git en tu computadora desde <a href="https://git-scm.com/downloads" target="_blank">git-scm.com</a>.
+
+        </li>
+
+        <li>
+
+            <strong>3. Configurar Git:</strong>
+
+            Abre la terminal y configura tu nombre de usuario y correo electrónico:
+
+            <pre>
+
+git config --global user.name "Tu Nombre"
+
+git config --global user.email "tuemail@example.com"
+
+            </pre>
+
+        </li>
+
+        <li>
+
+            <strong>4. Crear un nuevo repositorio:</strong>
+
+            En GitHub, haz clic en el botón "New" para crear un nuevo repositorio. Dale un nombre y una descripción.
+
+        </li>
+
+        <li>
+
+            <strong>5. Clonar el repositorio:</strong>
+
+            Usa el siguiente comando en la terminal para clonar el repositorio en tu máquina local:
+
+            <pre>
+
+git clone https://github.com/tuusuario/nombre-repositorio.git
+
+            </pre>
+
+        </li>
+
+        <li>
+
+            <strong>6. Hacer cambios y confirmar:</strong>
+
+            Realiza cambios en los archivos, luego usa los siguientes comandos para agregar y confirmar los cambios:
+
+            <pre>
+
+git add .
+
+git commit -m "Descripción de los cambios"
+
+            </pre>
+
+        </li>
+
+        <li>
+
+            <strong>7. Subir cambios a GitHub:</strong>
+
+            Para subir tus cambios al repositorio remoto, usa el siguiente comando:
+
+            <pre>
+
+git push origin main
+
+            </pre>
+
+        </li>
+
+        <li>
+
+            <strong>8. Crear una rama (branch):</strong>
+
+            Para trabajar en nuevas características sin afectar la rama principal, crea una nueva rama:
+
+            <pre>
+
+git checkout -b nombre-rama
+
+            </pre>
+
+        </li>
+
+        <li>
+
+            <strong>9. Hacer un Pull Request:</strong>
+
+            Una vez que hayas terminado de trabajar en tu rama, ve a GitHub y crea un Pull Request para fusionar tus cambios.
+
+        </li>
+
+        <li>
+
+            <strong>10. Colaborar con otros:</strong>
+
+            Puedes colaborar con otros usuarios haciendo "fork" de sus repositorios y enviando Pull Requests con tus cambios.
+
+        </li>
+
+    </ul>
+
+
+</body>
+
+</html>
